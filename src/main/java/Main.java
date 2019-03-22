@@ -6,5 +6,8 @@ public class Main {
         puk.checker();
         ARK.valeraInARK = false;
         puk.checker();
+
+        ValerasClass one = new ValerasClass();
+        System.out.println(one.name + " is " + one.age);
     }
 }
